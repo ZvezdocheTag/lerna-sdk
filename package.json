@@ -1,7 +1,14 @@
 {
-  "name": "root",
+  "name": "root-lerna-sdk",
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test"
   }
 }
