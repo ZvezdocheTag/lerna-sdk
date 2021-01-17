@@ -7,7 +7,7 @@ var ExampleComponent = function ExampleComponent(_ref) {
   var text = _ref.text;
   return /*#__PURE__*/React.createElement("div", {
     className: styles.test
-  }, "Example Component: ", text, /*#__PURE__*/React.createElement(Fragment, null, /*#__PURE__*/React.createElement(Button, {
+  }, "Example Component: ", text, /*#__PURE__*/React.createElement(Button, {
     variant: "primary"
   }, "Primary"), ' ', /*#__PURE__*/React.createElement(Button, {
     variant: "secondary"
@@ -23,9 +23,9 @@ var ExampleComponent = function ExampleComponent(_ref) {
     variant: "light"
   }, "Light"), ' ', /*#__PURE__*/React.createElement(Button, {
     variant: "dark"
-  }, "Dark"), ' ', /*#__PURE__*/React.createElement(Button, {
+  }, "Dark"), " ", /*#__PURE__*/React.createElement(Button, {
     variant: "link"
-  }, "Link")));
+  }, "Link"));
 };
 
 export { ExampleComponent };
