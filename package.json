@@ -14,5 +14,8 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test"
+  },
+  "dependencies": {
+    "lib-components": "https://gitpkg.now.sh/ZvezdocheTag/lerna-sdk/packages/libs?main"
   }
 }
